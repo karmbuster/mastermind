@@ -1,0 +1,91 @@
+body {
+    background-color: #18453B;
+    margin-top: 0.5em;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+form p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+table {
+    margin: 1em auto 0 auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+table.game td {
+    padding: 0 0.3em;
+	border: 0;
+    text-align: center;
+}
+
+table.game td:first-child {
+    padding-right: 1em;
+    font-size: 1.5em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+table.game td:last-child {
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+table.picker {
+    text-align: center;
+    margin-top: 2em;
+}
+
+table.picker td {
+    padding: 0 0.25em;
+}
+
+form input[type="submit"] {
+    font-size: 1.0em;
+    width: 7em;
+}
+
+form input[type="button"] {
+    font-size: 1.0em;
+    width: 7em;
+}
+
+form button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+p.gripe {
+    color: red;
+    font-style: italic;
+}
+
+p.end {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.solution {
+    margin-top: 35em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

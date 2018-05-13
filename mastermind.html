@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="mastermind.css" type="text/css" rel="stylesheet"/>
+  <title>Mastermind</title>
+</head>
+<body>
+<form id="gameform">
+  <fieldset>
+    <p id="title"></p>
+    <div id="guessTable"></div>
+    <table class="game" id="playTable">
+      <tr>
+        <!--
+        <td>1:</td>
+        <td><img src="images/orange.png" alt="A orange sphere"></td>
+        <td><img src="images/green.png" alt="A green sphere"></td>
+        <td><img src="images/purple.png" alt="A purple sphere"></td>
+        <td><img src="images/blue.png" alt="A blue sphere"></td>
+        <td><img src="images/redpeg.png" alt="Red Peg"> <img src="images/whitepeg.png" alt="White Peg"> <img
+            src="images/whitepeg.png" alt="White Peg"> <img src="images/whitepeg.png" alt="White Peg"></td>
+      </tr>
+      <tr>
+        <td>2:</td>
+        <td><img src="images/red.png" alt="A red sphere"></td>
+        <td><img src="images/yellow.png" alt="A yellow sphere"></td>
+        <td><img src="images/orange.png" alt="A orange sphere"></td>
+        <td><img src="images/purple.png" alt="A purple sphere"></td>
+        <td><img src="images/redpeg.png" alt="Red Peg"> <img src="images/redpeg.png" alt="Red Peg"></td>
+      </tr>
+    -->
+      <tr>
+        <td>?:</td>
+        <td>
+          <button name="pick" value="1"><img src="images/empty.png" alt="A empty sphere"></button>
+        </td>
+        <td>
+          <button name="pick" value="2"><img src="images/empty.png" alt="A empty sphere"></button>
+        </td>
+        <td>
+          <button name="pick" value="3"><img src="images/empty.png" alt="A empty sphere"></button>
+        </td>
+        <td>
+          <button name="pick" value="4"><img src="images/empty.png" alt="A empty sphere"></button>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+
+    <table class="picker">
+      <tr>
+        <td><img src="images/orange.png" alt="A orange.png sphere"><br><input type="radio" name="color" value="O"></td>
+        <td><img src="images/purple.png" alt="A purple.png sphere"><br><input type="radio" name="color" value="P"></td>
+        <td><img src="images/green.png" alt="A green.png sphere"><br><input type="radio" name="color" value="G"></td>
+        <td><img src="images/red.png" alt="A red.png sphere"><br><input type="radio" name="color" value="R"></td>
+        <td><img src="images/yellow.png" alt="A yellow.png sphere"><br><input type="radio" name="color" value="Y"></td>
+        <td><img src="images/blue.png" alt="A blue.png sphere"><br><input type="radio" name="color" value="B"></td>
+      </tr>
+    </table>
+    <div id="status"></div>
+    <p><input type="button" name="guess" value="Guess" id="guess">
+      <input type="button" name="giveup" value="Give Up" id="giveup">
+      <input type="button" name="newgame" value="New Game" id="newGame"></p>
+    <p><input type="button" name="exit" value="Exit" id="exit"></p>
+  </fieldset>
+</form>
+
+
+<p class="solution"><img src="images/blue.png" alt="A blue.png sphere"> <img src="images/green.png"
+                                                                             alt="A green.png sphere"> <img
+    src="images/orange.png" alt="A orange.png sphere"> <img src="images/purple.png" alt="A purple.png sphere"></p>
+<script src="mastermind.js"></script>
+</body>
+</html>
